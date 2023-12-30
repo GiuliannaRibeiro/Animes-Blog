@@ -1,0 +1,16 @@
+.container__menu-bar {
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container__menu-bar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+li {
+  list-style: none;
+}

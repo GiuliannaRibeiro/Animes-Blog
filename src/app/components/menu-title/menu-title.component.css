@@ -1,0 +1,20 @@
+.container__menu-title h1 {
+  margin: 1rem auto;
+  font-size: 3rem;
+  text-align: center;
+  background: linear-gradient(to right, #0044ff, #ffffff);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+}
+.container__menu-title  {
+  margin-bottom: 2vh;
+  background-color: #3e3e3f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .container__menu-title h1 {
+    font-size: 6.5rem;
+  }
+}

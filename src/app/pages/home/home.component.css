@@ -1,0 +1,57 @@
+.container__articles {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.articles__main {
+  flex: 1;
+  padding: 1rem;
+}
+.articles__others {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+app-menu-bar {
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .container__articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .articles__main {
+    padding: 1rem 1rem 1rem 2rem;
+  }
+  .articles__others {
+    padding: 1rem 2rem 1rem 1rem;
+  }
+}
+
+/* styles.css ou styles.scss */
+app-small-card .cardTitle:hover {
+  color: blueviolet;
+}
+

@@ -1,0 +1,42 @@
+.container__big-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.big-card__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-card__photo img {
+  width: 100%;
+}
+
+.big-card__title h1 {
+  font-size: 1.5rem;
+}
+
+.big-card__description p {
+  color: gray;
+}
+
+.big-card__date span {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+a:hover {
+  color: #67baffb4; 
+  transition: color 0.3s ease; 
+}
+
+@media screen and (min-width: 768px) {
+  .container__big-card {
+    margin-bottom: 2rem;
+  }
+  .big-card__photo {
+    margin: 0 auto;
+  }
+}
