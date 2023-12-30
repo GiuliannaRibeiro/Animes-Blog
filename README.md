@@ -1,4 +1,5 @@
 # AngularBlogDio
+![image](https://github.com/GiuliannaRibeiro/Animes-Blog/assets/82107688/cfdc8804-abcd-4745-bba2-043db0fc103f)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
 
